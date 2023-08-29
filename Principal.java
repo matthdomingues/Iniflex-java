@@ -121,7 +121,7 @@ public class Principal {
         // 3.10 - Ordenar funcionários por ordem alfabética
             List<Funcionario> funcionariosOrdenados = new ArrayList<>(funcionarios);
             funcionariosOrdenados.sort(Comparator.comparing(funcionario -> funcionario.getNome()));
-            System.out.println("Funcionários em ordem alfabética:");
+            System.out.println("Funcionários em ordem alfabética: ");
             for (Funcionario funcionario : funcionariosOrdenados) {
                 System.out.println("- " + funcionario.getNome());
             }
